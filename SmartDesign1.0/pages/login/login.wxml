@@ -1,0 +1,15 @@
+<button class="avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+    <image class="avatar" src="{{avatarUrl}}"></image>
+</button> 
+
+<view class="hr"></view>
+
+<view class="amount" >    
+        <view >昵称：</view>
+        <input class="weui-input"  bind:change="username" type="nickname" maxlength="10"  placeholder="请输入昵称"/>
+</view>
+
+    <button type="primary" class="button_1" bindtap="goback_1">确认</button>
+    <button type="default" class="button_2" bindtap="goback_2">取消</button>    
+
+

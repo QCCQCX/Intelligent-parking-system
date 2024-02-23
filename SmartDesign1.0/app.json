@@ -1,0 +1,55 @@
+{
+    "pages":[
+      "pages/index/index",
+      "pages/logs/logs",
+      "pages/history/history",
+      "pages/parting/parting",
+      "pages/see_it/see_it",
+      "pages/login/login"
+    ],
+    "window":{
+      "backgroundTextStyle":"light",
+      "navigationBarBackgroundColor": "#87CEFA",
+      "navigationBarTitleText": "智慧停车小程序",
+      "navigationBarTextStyle":"black"
+  
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+      "color": "#7a7a7a",
+      "selectedColor": "#007aff",
+      "backgroundColor": "#ffffff",
+      "borderStyle": "black",
+      "position": "bottom",
+      "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "pages/pic/begin.png",
+                "selectedIconPath": "pages/pic/begin_.png",
+                "text": "开始"
+                
+            }, 
+            {
+              "pagePath": "pages/parting/parting",
+              "iconPath": "pages/pic/parting.png",
+              "selectedIconPath": "pages/pic/parting_.png",
+              "text": "停车"
+          }, 
+          {
+            "pagePath": "pages/history/history",
+            "iconPath": "pages/pic/history.png",
+            "selectedIconPath": "pages/pic/history_.png", 
+            "text": "记录"
+         },
+         {
+            "pagePath": "pages/see_it/see_it",
+            "iconPath": "pages/pic/see_it.png", 
+            "selectedIconPath": "pages/pic/see_it_.png",
+            "text": "查看"
+         }
+      ]
+   }
+  
+  }
+  

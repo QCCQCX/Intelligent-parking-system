@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="now_use">实时车位占用情况</view>
+
+<view class="bg" > 
+    <image class="img_bg" src='../pic/bg.png'></image>  
+    <view class="text1" wx:if="{{chewei__3==1}}">  <image class="img_car" src='../pic/car.png'  ></image> </view>
+    <view class="text2" wx:if="{{chewei__2==1}}">  <image class="img_car" src='../pic/car.png'  ></image> </view>
+    <view class="text3" wx:if="{{chewei__1==1}}">  <image class="img_car" src='../pic/car.png'  ></image> </view>
+</view>
+
+
+
+
+
+

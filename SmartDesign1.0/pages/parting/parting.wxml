@@ -1,0 +1,20 @@
+<view class="view_img_title_parting">
+    <view>智慧停车</view>
+</view>
+<view class="amount"> 
+    <view>停车场车位上限（/辆）：3</view>
+</view>
+<view class="amount"> 
+    <view>停车场实时车辆数（/辆）：</view>
+    <view class="text2"> {{car_number}}  </view>
+</view>
+
+<view class="button_1">    
+    <button bindtap="updata_button"  bindtap="updata_button">更新实时数据</button>
+</view>
+<view class="button_2">    
+    <button bindtap="updata_button" bindtap="gate_button">进入车场</button>
+</view>
+<view class="button_3">    
+    <button bindtap="updata_button" bindtap="leave_button">离开车场</button>
+</view>

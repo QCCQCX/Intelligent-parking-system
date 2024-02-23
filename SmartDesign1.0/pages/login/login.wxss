@@ -1,0 +1,40 @@
+.avatar-wrapper {
+    padding: 0;
+    width: 56px !important;
+    border-radius: 8px;
+    margin-top: 140px;
+    margin-bottom: 20px;
+  }
+  
+  .avatar {
+    display: block;
+    width: 56px;
+    height: 56px;
+  }
+  
+  .container {
+    display: flex;
+  }
+  .amount{
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    display: flex;  
+    flex-direction: row;
+    }
+
+    .hr {
+        width: 98%;
+        height: 2rpx;
+        margin-top: 25rpx;
+        margin-bottom: 90rpx;
+        background-color: #55453780;
+    }
+
+    .button_1 {
+        margin-top: 75rpx;
+    }
+    .button_2 {
+        margin-top: 20rpx;
+    }
+  

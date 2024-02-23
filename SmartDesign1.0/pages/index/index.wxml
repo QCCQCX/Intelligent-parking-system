@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<swiper class='u-wrp-bnr' indicator-dots='true' autoplay='true' interval='5000' duration='1000' circular='true'>
+    <block wx:for="{{bnrUrl}}" wx:for-index="index">
+        <swiper-item>
+            <image src='{{item.url}}' class='u-img-slide' ></image>
+        </swiper-item>
+    </block>
+</swiper>
+
+<view class="button_0" wx:if="{{!userInfo}}">    
+    <button bindtap="go" type="primary">登录</button>
+</view>
+
+<view wx:else class="root">
+    <view>    
+        <image class="touxiang" src="{{userInfo.avatarUrl}}"></image>
+        <text class="nicheng"> 欢迎：{{userInfo.username}}\n</text>
+    </view>
+    <view class="text_Parking">
+        <text  class="text_Parking_time">您的停车时长：{{parking_time}} 分钟\n</text>
+        <text  class="text_Parking_money">应缴费用：{{parking_money}} 元</text>
+    </view>
+    <button class="button_2" bindtap="parking_status">更新停车状态</button>
+</view>
+
+
+<!--退出登录-->
+<view class="button_1" wx:if="{{userInfo}}"> 
+    <button bindtap="nologin" type="warn">退出登录</button>
+</view>
+
+<view class="text" >    @qcc  </view>
